@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="yitao-base" />
+        <module name="yitao-common" />
+        <module name="yitao-config" />
+        <module name="yitao-dao" />
+        <module name="yitao-domain" />
+        <module name="yitao-user-interface" />
+        <module name="yitao-user-service" />
+        <module name="yitao-user-web" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="yitao-base" target="1.5" />
+      <module name="yitao-common" target="1.5" />
+      <module name="yitao-config" target="1.5" />
+      <module name="yitao-dao" target="1.5" />
+      <module name="yitao-domain" target="1.5" />
+      <module name="yitao-parent" target="1.5" />
+      <module name="yitao-user-interface" target="1.5" />
+      <module name="yitao-user-service" target="1.5" />
+      <module name="yitao-user-web" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
